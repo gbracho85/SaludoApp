@@ -7,7 +7,7 @@ jdk 'JDK17'
 stages {
 stage('Clonar') {
 steps {
-git branch: 'main', url: "${params.URL}"
+git branch: 'main', url: "https://https://github.com/gbracho85/SaludoApp.git"
 }
 }
 stage('Compilar') {
