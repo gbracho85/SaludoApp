@@ -7,7 +7,7 @@ jdk 'JDK17'
 stages {
 stage('Clonar') {
 steps {
-git branch: 'master', url: "${params.URL}"
+git branch: 'main', url: "${params.URL}"
 }
 }
 stage('Compilar') {
